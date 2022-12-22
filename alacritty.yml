@@ -1,9 +1,11 @@
 shell:
   program: /bin/zsh
   args:
-    - '--login'
-    - '-c'
-    - tmux new-session -s "$(/home/jose/.config/tmux/scripts/tmux-session-number)"
+    - -l
+    - -c
+    - /opt/homebrew/bin/tmux new-session -s "$(/Users/typesarespaces/.config/tmux/scripts/tmux-session-number)"
+
+alt_send_esc: true
 
 colors:
   primary:
@@ -49,16 +51,16 @@ colors:
   indexed_colors: []
 font:
   normal:
-    family: FiraCode
+    family: Hack Nerd Font Mono
     style: Regular
   bold:
-    family: FiraCode
+    family: Hack Nerd Font Mono
     style: Bold
   italic:
-    family: FiraCode
+    family: Hack Nerd Font Mono
     style: Italic
   bold_italic:
-    family: FiraCode
+    family: Hack Nerd Font Mono
     style: Bold Italic
   size: 18
   offset:
@@ -106,3 +108,9 @@ key_bindings:
   - key: Down
     mods: Shift
     action: ScrollLineDown
+  - key: X
+    mods: Alt
+    chars: "\x1bx"
+  - key: P
+    mods: Alt
+    chars: "\x1bp"
