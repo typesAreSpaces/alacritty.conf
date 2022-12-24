@@ -114,3 +114,6 @@ key_bindings:
   - key: P
     mods: Alt
     chars: "\x1bp"
+  - key: D
+    mods: Alt
+    chars: "\x1bd"
