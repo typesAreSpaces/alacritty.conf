@@ -70,7 +70,7 @@ font:
     x: 0
     'y': 0
 window:
-  opacity: 0.8
+  opacity: 1
   padding:
     x: 10
     'y': 10
