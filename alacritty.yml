@@ -5,7 +5,7 @@ shell:
     - -c
     - /opt/homebrew/bin/tmux new-session -s "$(/Users/typesarespaces/.config/tmux/scripts/tmux-session-number)"
 
-alt_send_esc: true
+alt_send_esc: false
 
 colors:
   primary:
@@ -115,6 +115,9 @@ key_bindings:
   - key: P
     mods: Alt
     chars: "\x1bp"
+  - key: N
+    mods: Alt
+    chars: "\x1bn"
   - key: D
     mods: Alt
     chars: "\x1bd"
