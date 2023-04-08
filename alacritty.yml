@@ -5,8 +5,6 @@ shell:
     - -c
     - /opt/homebrew/bin/tmux new-session -s "$(/Users/typesarespaces/.config/tmux/scripts/tmux-session-number)"
 
-alt_send_esc: false
-
 colors:
   primary:
     background: '#282828'
