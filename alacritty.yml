@@ -3,8 +3,9 @@ shell:
   args:
     - '--login'
     - '-c'
-    - tmux new-session -s "$(/home/jose/.config/tmux/scripts/tmux-session-number)"
-
+    - >-
+      tmux new-session -s
+      "$(/home/jose/.config/tmux/scripts/tmux-session-number)"
 colors:
   primary:
     background: '#282828'
