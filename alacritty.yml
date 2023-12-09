@@ -107,3 +107,9 @@ key_bindings:
   - key: Down
     mods: Shift
     action: ScrollLineDown
+  - key: Tab
+    mods: Control
+    chars: "\x1b[27;5;9~"
+  - key: Tab
+    mods: Control|Shift
+    chars: "\x1b[27;6;9~"
