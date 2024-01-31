@@ -1,27 +1,28 @@
 shell:
   program: /bin/zsh
   args:
-    - -l
-    - -c
-    - /opt/homebrew/bin/tmux new-session -s "$(/Users/typesarespaces/.config/tmux/scripts/tmux-session-number)"
-
+    - '-l'
+    - '-c'
+    - >-
+      /opt/homebrew/bin/tmux new-session -s
+      "$(/Users/typesarespaces/.config/tmux/scripts/tmux-session-number)"
 colors:
   primary:
-    background: '#282828'
-    foreground: '#ebdbb2'
+    background: '0x282c34'
+    foreground: '0xbbc2cf'
     dim_foreground: '#dbdbdb'
     bright_foreground: '#d9d9d9'
     dim_background: '#202020'
     bright_background: '#3a3a3a'
   normal:
-    black: '#282828'
-    red: '#cc241d'
-    green: '#98971a'
-    yellow: '#d79921'
-    blue: '#458588'
-    magenta: '#b16286'
-    cyan: '#689d6a'
-    white: '#a89984'
+    black: '0x282c34'
+    red: '0xff6c6b'
+    green: '0x98be65'
+    yellow: '0xecbe7b'
+    blue: '0x51afef'
+    magenta: '0xc678dd'
+    cyan: '0x46d9ff'
+    white: '0xbbc2cf'
   bright:
     black: '#928374'
     red: '#fb4934'
@@ -109,19 +110,19 @@ key_bindings:
     action: ScrollLineDown
   - key: X
     mods: Alt
-    chars: "\x1bx"
+    chars: "\ex"
   - key: P
     mods: Alt
-    chars: "\x1bp"
-  - key: N
+    chars: "\ep"
+  - key: 'N'
     mods: Alt
-    chars: "\x1bn"
+    chars: "\en"
   - key: D
     mods: Alt
-    chars: "\x1bd"
+    chars: "\ed"
   - key: Tab
     mods: Control
-    chars: "\x1b[27;5;9~"
+    chars: "\e[27;5;9~"
   - key: Tab
     mods: Control|Shift
-    chars: "\x1b[27;6;9~"
+    chars: "\e[27;6;9~"
