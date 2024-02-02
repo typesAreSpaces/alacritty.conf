@@ -28,20 +28,20 @@ white = "0xe6e6d1"
 yellow = "0xebf85b"
 
 [colors.normal]
-black = "0x282c34"
-blue = "0x51afef"
-cyan = "0x46d9ff"
-green = "0x98be65"
-magenta = "0xc678dd"
-red = "0xff6c6b"
-white = "0xbbc2cf"
-yellow = "0xecbe7b"
+black = "#282828"
+blue = "#458588"
+cyan = "#689d6a"
+green = "#98971a"
+magenta = "#b16286"
+red = "#cc241d"
+white = "#a89984"
+yellow = "#d79921"
 
 [colors.primary]
-background = "0x282c34"
+background = "#282828"
 bright_foreground = "#d9d9d9"
 dim_foreground = "#dbdbdb"
-foreground = "0xbbc2cf"
+foreground = "#ebdbb2"
 
 [colors.selection]
 background = "0x44475a"
